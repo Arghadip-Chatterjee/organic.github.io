@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Ubuntu&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'Montserrat';
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-family: 'Montserrat';
+
+}
+
+.nav-item a:hover{
+    color:red;
+}
+
+.navbar-brand{
+    height: 50px;
+    width: 100px;
+}
+
+.bi-bag-check{
+    color:black;
+    cursor: pointer;
+    font-size: 30px;
+    padding:4px;
+    margin-left:8px;
+}
+
+.bi-bag-check:hover{
+    color: red;
+}
+
+
+.btn-outline-success{
+    width:40%;
+}
+
+.form-control{
+    width:70%
+}
+
+.main{
+    background: url(imgs/m1.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 5rem;
+    font-family: 'Righteous';
+
+}
+
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(19, 244, 52);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn1:hover{
+    background-color: rgb(0, 255, 170);
+}
+
+.mbtn2{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    color:rgb(19, 244, 52);
+    border: 1px solid rgb(0, 255, 170);
+    border-radius: 50px;
+    transition: all 0.4s;
+
+}
+
+.mbtn2:hover{
+    background-color: rgb(19, 244, 52);
+    border: none;
+    color: white;
+
+}
+
+.line{
+    height: 6px;
+    width: 30%;
+    background:rgb(20,219,20);
+    display:inline-block
+}
+
+.about{
+    background: url(imgs/abut.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.about h1{
+    font-size: 3rem;
+    font-family: 'Righteous';
+    font-weight: bold;
+}
+
+.welcome{
+    background-color: rgb(20,219,20);
+}
+
+.line2
+{
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+
+}
+
+.welcome h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.welcome .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+
+}
+
+.welcome i{
+    font-size: 45px;
+    color: rgb(20,219,20);
+}
+
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+    
+}
+
+.product h1{
+    font-size: 3rem;
+    font-family: 'Righteous';
+    font-weight: bold;
+}
+
+.star{
+    text-align: end;
+    color:orange;
+}
+
+.product .card{
+    border: none;
+    border-radius: 0;
+    cursor:pointer;
+}
+
+.product .card-body{
+    border: 1px dashed grey;
+}
+
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+
+.per1{
+    color: rgb(196, 189, 189);
+}
+
+.btnc{
+    height: 50px;
+    width: 50%;
+    border: none;
+    outline: none;
+    color: white;
+    background: rgb(20,219,20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(20,219,20);
+    color: rgb(20,219,20);
+    background: transparent;
+    border-radius: 50px;
+
+}
+
+.discount
+{
+    background:rgb(20,219,20);
+    color: white;
+}
+
+.dbtn{
+    height: 50px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: all 0.4s;
+}
+
+.dbtn:hover{
+    background-color: wheat;
+}
+
+.card1:hover{
+    color:white;
+    background: rgb(20,219,20);
+    font-weight: bolder;
+    font-size: larger;
+}

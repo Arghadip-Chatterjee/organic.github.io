@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.nav img{
+    width:130px;
+    height:100px;
+}
+
+.nav ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.nav ul li{
+    justify-content: space-around;
+    
+}
+.nav input{
+    height: 30px;
+    width: 80px;
+}
