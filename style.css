@@ -235,3 +235,11 @@ p{
     font-weight: bolder;
     font-size: larger;
 }
+
+.fresh:hover{
+    border: solid black 2px;
+    box-shadow: 10px;
+    filter: drop-shadow(0 0 0.75rem crimson);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
