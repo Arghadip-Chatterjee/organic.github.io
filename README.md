@@ -10,3 +10,5 @@ Basic Navigation: Includes a simple navigation menu to guide users through the w
 Menu Section: Displays a list of dishes with descriptions and prices.
 Contact Information: Provides contact details for the restaurant.
 Image Gallery: Features a gallery of restaurant images.
+
+CONTRIBUTION GUIDELINES - Check CONTRIBUTING.md file
